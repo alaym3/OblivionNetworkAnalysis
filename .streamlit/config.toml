@@ -1,0 +1,14 @@
+[theme]
+#textColor = "rgb(233,230,211)" 
+#primaryColor = "rgb(233,230,211)" 
+#backgroundColor = "rgb(31,25,25)" 
+font = "sans serif"
+#secondaryBackgroundColor =  "rgb(170,158,152)" 
+#textColor = "rgb(31,25,25)" 
+#primaryColor = "rgb(31,25,25)" 
+#backgroundColor = "rgb(233,230,211)" 
+
+textColor = "rgb(141,107,78)" 
+primaryColor = "rgb(141,107,78)" 
+backgroundColor = "rgb(233,230,211)" 
+secondaryBackgroundColor =  "rgb(121,55,31)" 
