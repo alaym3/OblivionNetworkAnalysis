@@ -22,6 +22,7 @@ import urllib.request
 from tqdm.auto import tqdm
 
 import nltk
+nltk.download('stopwords')
 from nltk.tokenize import WordPunctTokenizer
 from nltk.stem import WordNetLemmatizer
 tokenizer = WordPunctTokenizer()
