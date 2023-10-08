@@ -8,6 +8,9 @@ import pandas as pd
 from tabulate import tabulate
 import plotly.express as px
 from collections import Counter
+from streamlit_player import st_player
+import streamlit.components.v1 as components
+
 
 
 pd.options.plotting.backend = "plotly"
@@ -77,4 +80,13 @@ update_title(fig,25)
 fig.update_yaxes(showgrid=False)
 fig.update_xaxes(showgrid=True)
 st.plotly_chart(fig,use_container_width=True)
+
+
+
+st.markdown("## Visually explore the entirety of Oblivion characters!")
+full_network = open("graphs/full_network.html", 'r', encoding='utf-8')
+full_network_html = full_network.read() 
+components.html(full_network_html, height=1000,width=1000)
     
+    
+st_player("https://www.youtube.com/watch?v=znFolui2shs")
